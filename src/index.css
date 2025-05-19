@@ -18,7 +18,6 @@ a {
   text-decoration: inherit;
 }
 
-/* Exceção para links do header - não mudam de cor no hover */
 header a,
 header a:hover,
 header li a,
@@ -72,7 +71,6 @@ button:focus-visible {
     color: #747bff;
   }
 
-  /* Mantém a cor original dos links do header no tema claro também */
   header a,
   header a:hover,
   header li a,

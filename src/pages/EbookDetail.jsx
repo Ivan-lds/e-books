@@ -15,7 +15,6 @@ const storeLinks = {
   psicanalise: "https://www.amazon.com.br/s?k=ebook+psicanalise",
 };
 
-// Dados dos e-books
 const ebooksData = {
   alimentacao: {
     title: "Alimentação_Saudavel",
@@ -84,7 +83,6 @@ function EbookDetail() {
   const [ebook, setEbook] = useState(null);
 
   useEffect(() => {
-    // Buscar dados do e-book com base no ID
     if (ebooksData[id]) {
       setEbook(ebooksData[id]);
     }

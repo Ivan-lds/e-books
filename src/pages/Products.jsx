@@ -16,7 +16,6 @@ const storeLinks = {
 };
 
 function Products() {
-  // Dados dos e-books
   const ebooksData = {
     alimentacao: {
       id: "alimentacao",
@@ -100,14 +99,11 @@ function Products() {
     },
   };
 
-  // Converter o objeto em array para facilitar o mapeamento
   const ebooksArray = Object.values(ebooksData);
 
-  // Estado para controle de filtro e busca
   const [searchTerm, setSearchTerm] = useState("");
   const [filteredEbooks, setFilteredEbooks] = useState(ebooksArray);
 
-  // Função para lidar com a busca
   const handleSearch = (e) => {
     const term = e.target.value.toLowerCase();
     setSearchTerm(term);

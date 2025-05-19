@@ -12,7 +12,6 @@ import Contact from "./pages/Contact";
 import Products from "./pages/Products";
 import EbookDetail from "./pages/EbookDetail";
 
-// Wrapper component to use hooks
 function AppContent() {
   const location = useLocation();
   const showFooter =

@@ -18,7 +18,6 @@ function Home() {
       "Já ouviu falar de psicanálise?\n\nA psicanálise é a área de investigação da mente humana. Trata-se de uma abordagem que trabalha profundamente o inconsciente, responsável pelas nossas atitudes que temos de modo automático.\nPor meio da psicanálise, se busca a origem dos sintomas mentais e emocionais e dos comportamentos.",
   });
 
-  // Função para formatar o texto com quebras de linha
   const formatDescription = (text) => {
     return text.split("\n").map((line, index) => (
       <span key={index}>

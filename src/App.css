@@ -26,12 +26,10 @@ header {
   background-color: var(--cinza-claro);
 }
 
-/* Estilo específico para o header na página de contato e produtos */
 header.contact-header {
   margin-left: 14rem;
 }
 
-/* Estilo específico para o nav na página de contato e produtos */
 nav.contact-nav {
   width: 100%;
 }
@@ -355,7 +353,6 @@ body.black * {
   color: var(--branco);
 }
 
-/* Garantir que os links do header mantenham sua cor no tema escuro */
 body.black header li a,
 body.black header li a:hover {
   color: var(--branco);
@@ -446,7 +443,6 @@ body.blue textarea.form-input:focus {
   padding: 0 20px;
 }
 
-/* Quando o header tem a classe contact-header, ajustamos a margem da página de produtos */
 .app:has(header.contact-header) .products-page {
   margin: 2rem 7.3rem;
 }
